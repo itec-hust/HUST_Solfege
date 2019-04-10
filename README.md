@@ -24,6 +24,7 @@ The description of wav files is stated above. All the audios are  compressed in 
 
 The *onset&pitch* contains the notations for onset and actual singing pitch of each recording. The notations for offset haven't been done yet, please ignore the offset part.
 The format of txt in *onset&pitch* is below.
+
 onset|offset|pitch
 ---|---|---
 ...|...|...
