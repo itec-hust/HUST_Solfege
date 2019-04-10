@@ -1,4 +1,4 @@
-#HUST_Solfege
+# HUST_Solfege
 
 **HUST_Solfege** is a public solfege dataset for solfege assessment, you can also use this dataset for solfege onset detection or note transcription.
 
@@ -18,12 +18,10 @@ Juvenile|37|2092
 
 
 ---------------------------------------------------------------------------
-This dataset includes four files in repository: 1) *wav*, 2) *onset&pitch*, 3) *alignment*, 4) *score*.
+This dataset includes four files in repository: 1) *wav*, 2) *onset&pitch*, 3) *alignment*.
 
 The description of wav files is stated above. All the audios are  compressed in ZIP format.
 
 The *onset&pitch* contains the notations for onset and actual singing pitch of each recording. The notations for offset haven't been done yet, please ignore the offset part.
 
 The *alignment* contains the alignment relationship for actual pitch and score note. 
-
-The *score* is an optional resource of music scores which is stored in a self-defined json format.
