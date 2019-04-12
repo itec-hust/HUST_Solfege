@@ -18,15 +18,19 @@ Juvenile|37|2092
 
 
 
-This dataset includes three files in repository: 1) *wav*, 2) *onset&pitch*, 3) *alignment*.
+This dataset includes three files in repository: 1) *wav*, 2) *onset&pitch* and 3) *alignment*.
 
-The description of wav files is stated above. All the audios are  compressed in ZIP format.
+The description of wav files is stated above. All the audios are compressed in ZIP format.
 
-The *onset&pitch* contains the notations for onset and actual singing pitch of each recording. The notations for offset haven't been done yet, please ignore the offset part.
+The *onset&pitch* contains the notations for onset and actual pitch of each recording. The notations for offset **haven't** been done yet, please ignore the offset part, it will be completed in future work.
 The format of txt in *onset&pitch* is below.
 
 onset|offset|pitch
 ---|---|---
 ...|...|...
 
-The *alignment* contains the alignment relationship for actual pitch and score note. 
+Note: The 30 recordings from *MARG* are just for onset detection. Pitch notations are not done for MARG recordings.
+
+The *alignment* contains 30 txt file for alignment relationship between actual pitch and score note. 
+The statistics of the test set is also available in *statistics_of_testset.txt*.
+Note: Test recordings are randomly selected from 73 solfege recordings.
